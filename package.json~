@@ -1,0 +1,26 @@
+{
+  "name": "js-monads-test2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "monad.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dschalk/js-monads-test2.git"
+  },
+  "author": "David Schalk <davidschalk42@gmail.com> (https://github.com/dschalk)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dschalk/js-monads-test2/issues"
+  },
+  "homepage": "https://github.com/dschalk/js-monads-test2#readme",
+  "dependencies": {
+    "babel-loader": "6.2.4",
+    "webpack": "1.13.0"
+  }
+}

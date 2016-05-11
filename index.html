@@ -5,6 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <meta content="Monads"/>
   <link href="https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.css" rel="stylesheet" />
+  <style>
+    body {color: #e2cdaa; background-color: #000; font-size: 18px; }
+    ul {color: #e2cdaa; font-size: 18px;}
+    li {color: #e2cdaa; font-size: 18px;}
+    #mocha .test pre {display: block; font-size: 16px;}
+    #mocha-stats em {color: #e2cdaa; font-size: 18px;}
+    #mocha h2 {font-size: 16px; }
+    #mocha h1 {font-size: 20px; color: #e8b476 }
+  </style>
   <title>JS-monads-part6</title>
 </head>
 <body>
@@ -17,7 +26,7 @@
     <script src="./bower_components/chai/chai.js" type="text/javascript"></script>
     <script src="test/test.js"></script>
     <script>
-       mocha.checkLeaks();
+       mocha.setup({ignoreLeaks: true});
        mocha.run();
     </script>
 </body>
