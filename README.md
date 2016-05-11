@@ -1,1 +1,0 @@
-# js-monads-test2
